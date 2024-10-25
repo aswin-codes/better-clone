@@ -26,7 +26,7 @@ const Start = () => {
                 </div>
                 <div className='flex flex-col items-center pt-10 sm:pt-20 text-black'>
                     <h1 className='text-center text-xl sm:text-3xl font-semibold'>
-                        Hi, I'm Betsy!<br />What can I help you with?
+                        Hi, I&apos;m Betsy!<br />What can I help you with?
                     </h1>
                 </div>
             </div>
