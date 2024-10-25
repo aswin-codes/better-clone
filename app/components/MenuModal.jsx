@@ -4,7 +4,7 @@ import { Close, Logo, Phone, PhoneIcon, UserIcon } from "./Icons";
 const MenuModal = ({ isVisible, onClose }) => {
     return (
         <div
-            className={`fixed top-0 left-0 h-full w-full bg-white flex justify-between flex-col z-50 transform transition-transform duration-300 ease-in-out py-6 px-10 ${isVisible ? "translate-x-0" : "-translate-x-full"
+            className={`fixed top-0 z-50 left-0 h-full w-full bg-white flex justify-between flex-col z-50 transform transition-transform duration-300 ease-in-out py-6 px-10 ${isVisible ? "translate-x-0" : "-translate-x-full"
                 }`}
         >
             <div>

@@ -6,7 +6,7 @@ import "../globals.css";
 const Navbar = ({ toggleModal, isSection1 }) => {
   return (
     <div
-      className={`w-full fixed z-50 transition-colors duration-300 ${
+      className={`w-full fixed z-40 transition-colors duration-300 ${
         isSection1 ? "bg-primary text-white" : "bg-white text-black"
       } flex justify-between py-6 px-8`}
     >
