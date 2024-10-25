@@ -10,7 +10,15 @@ module.exports = {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        primary: "rgb(0, 71, 51)",
+        inversePrimary: "rgb(7, 49, 38)",
+        textPrimary: "rgb(41, 43, 41)",
+        successGreen : "rgb(240, 247, 241)",
+        activeGreen: "rgb(30, 224, 127)"
       },
+      fontFamily: {
+        poppins : ["Poppins",],
+      }
     },
   },
   plugins: [],
