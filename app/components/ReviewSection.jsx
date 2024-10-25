@@ -24,7 +24,7 @@ const ReviewSection = () => {
                 </div>
             </div>
             <div className='md:w-fit w-full flex flex-col '>
-                <p className='text-4xl font-semibold  md:text-6xl max-w-[400px]'>Find out why we're better.</p>
+                <p className='text-4xl font-semibold  md:text-6xl max-w-[400px]'>Find out why we&apos;re better.</p>
                 <div className='cursor-pointer font-semibold text-white bg-primary hover:bg-inversePrimary duration-200 ease-in-out transition-all w-full text-center md:w-fit px-5 py-3 rounded-full mt-5 '> See all our stories</div>
                 <div className='mt-4 flex gap-2 text-gray-600 items-center '>
                     <TrustPilotIcon/> 

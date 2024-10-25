@@ -11,7 +11,7 @@ const HomeSection = () => {
                 <p className='text-xl md:text-3xl'>Rate drop alert</p>
             </div>
             <div className='mt-10 z-20'>
-                <p className='text-4xl sm:text-6xl md:text-7xl lg:text-8xl text-center font-semibold px-10 sm:px-28'>The rate drop you've been waiting for</p>
+                <p className='text-4xl sm:text-6xl md:text-7xl lg:text-8xl text-center font-semibold px-10 sm:px-28'>The rate drop you&apos;ve been waiting for</p>
             </div>
             <div className='z-10 sm:flex-row flex items-center justify-center flex-col mt-10 sm:-mt-14 px-10'>
                 <div>

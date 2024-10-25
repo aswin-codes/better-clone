@@ -8,7 +8,7 @@ const QASection = () => {
         <section className="min-h-screen bg-white">
             <div className='px-14 md:px-16 py-10 md:py-20 '>
                 <div className='flex justify-between flex-wrap gap-5 items-end text-black'>
-                    <h2 className="font-bold text-textPrimary leading-heading m-0 p-0 text-4xl md:text-5xl md:tracking-tight w-full max-w-lg tracking-tight">Got questions?<br />We've got answers</h2>
+                    <h2 className="font-bold text-textPrimary leading-heading m-0 p-0 text-4xl md:text-5xl md:tracking-tight w-full max-w-lg tracking-tight">Got questions?<br />We&apos;ve got answers</h2>
                     <div className='flex gap-9'>
                         <div
                             onClick={() => setAbout("products")}
