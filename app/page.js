@@ -5,21 +5,21 @@ import MenuModal from "./components/MenuModal";
 import HomeSection from "./components/HomeSection";
 import ReviewSection from "./components/ReviewSection";
 import QASection from "./components/QASection";
+import Footer from "./components/Footer";
 
 export default function Home() {
   const [isModalVisible, setIsModalVisible] = useState(false);
   const [isSection1, setIsSection1] = useState(true);
 
-  // Create a ref to observe the HomeSection
+  
   const homeSectionRef = useRef(null);
 
-  // Use Intersection Observer to toggle isSection1
   useEffect(() => {
     const observer = new IntersectionObserver(
       ([entry]) => {
         setIsSection1(entry.isIntersecting);
       },
-      { threshold: 0} // Adjust threshold as needed
+      { threshold: 0 } 
     );
 
     if (homeSectionRef.current) {
@@ -31,7 +31,6 @@ export default function Home() {
     };
   }, []);
 
-  // Prevent background scrolling when the modal is open
   useEffect(() => {
     document.body.style.overflow = isModalVisible ? "hidden" : "";
   }, [isModalVisible]);
@@ -56,7 +55,9 @@ export default function Home() {
           <HomeSection />
         </div>
         <ReviewSection />
-        <QASection/>
+        <QASection />
+        <hr/>
+        <Footer/>
       </div>
     </div>
   );

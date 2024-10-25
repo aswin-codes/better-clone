@@ -1,8 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
 
 :root {
   --background: #ffffff;
@@ -19,11 +18,42 @@
 body {
   color: var(--foreground);
   background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 
+/* Tailwind Custom Utilities */
 @layer utilities {
   .nav-items {
-    @apply px-4 py-3 hover:bg-white rounded-full hover:text-black cursor-pointer transition-all duration-200 ease-in-out
+    @apply px-4 py-3 hover:bg-white rounded-full hover:text-black cursor-pointer transition-all duration-200 ease-in-out;
+  }
+
+  .footer-heading {
+    @apply font-semibold text-lg mb-4 relative;
+  }
+
+  .footer-link {
+    @apply w-fit cursor-pointer text-sm relative mt-4 inline-block;
+  }
+
+  .footer-section {
+    @apply basis-1/5 text-black flex flex-col;
+  }
+
+  .logo-section {
+    @apply flex items-center gap-2;
+  }
+
+  .logo-wrapper {
+    @apply text-activeGreen w-16;
+  }
+
+  /* Underline animation logic */
+  .underline-animation {
+    @apply absolute left-0 bottom-0 h-[2px] bg-black transition-all duration-300 ease-in-out;
+    width: 0; /* Initial width */
+  }
+
+  .footer-link:hover .underline-animation {
+    width: 100%; /* Expands to text width */
   }
 }
