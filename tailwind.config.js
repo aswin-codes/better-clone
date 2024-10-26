@@ -13,8 +13,12 @@ module.exports = {
         primary: "rgb(0, 71, 51)",
         inversePrimary: "rgb(7, 49, 38)",
         textPrimary: "rgb(41, 43, 41)",
+        textHighlight: "rgb(1, 120, 72)",
         successGreen : "rgb(240, 247, 241)",
-        activeGreen: "rgb(30, 224, 127)"
+        activeGreen: "rgb(30, 224, 127)",
+        backgroundInverseSecondary: "rgb(1, 120, 72)",
+        accentSecondary: "rgb(223, 224, 220)",
+        textSecondary: "rgb(86, 93, 90)"
       },
       fontFamily: {
         poppins : ["Poppins",],
