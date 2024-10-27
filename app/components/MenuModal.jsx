@@ -14,7 +14,7 @@ const MenuModal = ({ isVisible, onClose }) => {
                     <div onClick={onClose} className="cursor-pointer text-black"><Close /></div>
                 </div>
                 <Link href={"/about-us"}><div className="mt-5 text-base text-black cursor-pointer font-thin ">About Us</div></Link>
-                <div className="mt-5  text-black cursor-pointer">Mortgage</div>
+                <Link href={"/mortgage-calculator"}><div className="mt-5  text-black cursor-pointer">Mortgage</div></Link>
                 <Link href={"/start"}><div className="mt-5  text-black cursor-pointer">Start</div></Link>
                 <div className="bg-successGreen rounded-full mt-3 text-black cursor-pointer flex items-center justify-center gap-3 py-2 ">
                     <Phone />
